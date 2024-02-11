@@ -1,4 +1,3 @@
-const {coffeeStock, isCoffeeMachineReady} = require('./state');
+import coffeeStock from './state.js'
 
-console.log(coffeeStock);
-console.log(isCoffeeMachineReady);
+console.log('coffeeStock => ', coffeeStock)
